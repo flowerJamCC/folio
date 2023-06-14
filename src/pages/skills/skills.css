@@ -1,0 +1,103 @@
+#projects{
+    margin-top: 70px;
+    height: 270vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-title{
+    font-size: 28px;
+    padding: 70px;
+    font-family: 'roboto';
+    
+}
+
+.project-container{
+    display: flex;
+    border-bottom: 1px solid black;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.projects-p{
+    font-family: 'Roboto';
+    font-size: 22px;
+    /* width: 50%; */
+    padding-left: 70px;
+    padding-right: 70px;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.one-right{
+    display: flex;
+    /* width: 50%; */
+    padding: 70px;
+}
+
+.img-one{
+    border: 1px solid black;
+    height: 400px;
+    width: 600px;
+    background-image: url('../../media/shoeswebsite.png');
+    background-size: 600px 400px;
+    background-repeat: no-repeat;
+}
+
+.img-one:hover{
+    background-image: url('../../media/shoescode.png');
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.img-two{
+    border: 1px solid black;
+    height: 400px;
+    width: 600px;
+    background-image: url('../../media/dashboard\ pic.png');
+    background-size: 600px 400px;
+    background-repeat: no-repeat;
+}
+
+.img-two:hover{
+    cursor: pointer;
+    background-image: url('../../media/dash\ code.png');
+    transition: all 1s;
+}
+
+.img-three{
+    border: 1px solid black;
+    height: 400px;
+    width: 600px;
+    background-image: url('../../media/reacto.png');
+    background-size: 600px 400px;
+    background-repeat: no-repeat;
+}
+
+.img-three:hover{
+    cursor: pointer;
+    background-image: url('../../media/login\ code.png');
+    transition: all 1s;
+}
+
+.three-container{
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.three-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.three-left{
+    padding: 70px;
+}
+
+.proj-one{
+    background-color: whitesmoke;
+}
+
+.proj-three{
+    background-color: whitesmoke;
+}

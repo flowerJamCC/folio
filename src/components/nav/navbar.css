@@ -1,0 +1,43 @@
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding: 40px;
+    height: 80px;
+    width: 100%;
+    font-family: 'Roboto';
+    font-size: 22px;
+    border-bottom: 1px solid black;
+    margin-bottom: 70px;
+}
+
+.nav-right{
+    display: flex;
+    gap: 20px;
+
+}
+
+.nav-right a{
+    text-decoration: none;
+    color: gray;
+    font-size: 26px;
+}
+
+.nav-right a:hover{
+    color: purple;
+    transition-property: all;
+    transition-duration: 1s;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.nav-title{
+    font-family: 'lobster';
+    font-size: 43px;
+    padding-left: 20px;
+    letter-spacing: 5px;
+    background: linear-gradient(60deg, purple 0%, yellow 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

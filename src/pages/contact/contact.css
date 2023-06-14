@@ -1,0 +1,143 @@
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 40px;
+    height: 100vh;
+    margin-top: 190px;
+}
+
+.contact-title{
+    display: flex;
+    font-family: 'lobster';
+    justify-content: center;
+    font-size: 58px;
+    letter-spacing: 20px;
+    background: linear-gradient(60deg, purple 0%, yellow 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* border-bottom: 1px solid black; */
+    width: 100%;
+    margin-bottom: 50px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 140px;
+    margin-top: 100px;
+    padding: 10px 15px;
+    gap: 15px;
+    background-color: #181717;
+    outline: 3px #181717 solid;
+    outline-offset: -3px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .button .text {
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    transition: 400ms;
+  }
+  
+  .button svg path {
+    transition: 400ms;
+  }
+  
+  .button:hover {
+    background-color: transparent;
+  }
+  
+  .button:hover .text {
+    color: #181717;
+  }
+  
+  .button:hover svg path {
+    fill: #181717;
+  }
+
+  .git-a{
+    text-decoration: none;
+  }
+
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 70px;
+  }
+  
+  .cards .red {
+    background-color: #f43f5e;
+  }
+  
+  .cards .blue {
+    background-color: #3b82f6;
+  }
+  
+  .cards .green {
+    background-color: #22c55e;
+  }
+  
+  .cards .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100px;
+    width: 250px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .cards .card p.tip {
+    font-size: 1em;
+    font-weight: 700;
+  }
+  
+  .cards .card p.second-text {
+    font-size: .7em;
+  }
+  
+  .cards .card:hover {
+    transform: scale(1.1, 1.1);
+  }
+  
+  .cards:hover > .card:not(:hover) {
+    filter: blur(10px);
+    transform: scale(0.9, 0.9);
+  }
+
+  .res-button{
+    position: absolute;
+    left: 400px;
+    transform: translateY(120px);
+    height: 500px;
+    width: 900px;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 66px;
+    font-family: 'Press start 2p';
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px white ;
+}
